@@ -1,0 +1,61 @@
+body {
+	color: white;
+	background-color: black;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 100px;
+}
+
+hr {
+	color: white;
+}
+
+.content_box {
+	padding: 0px 128px;
+}
+
+#download {
+	display: box;
+	border: 2px white solid;
+	padding: 8px 32px 8px 32px;
+	margin: auto;
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+}
+
+#download:hover {
+	background-color: #050505;
+	box-shadow: 0 0 20px white;
+}
+
+#back_top {
+	height: 100px;
+	background-image: url(images/background_top.png);
+	background-size: 100px;
+}
+
+#back_bottom {
+	margin: 0;
+	padding: 0;
+	background-image: url(images/background_bottom.png);
+	background-size: 100px;
+}
+
+#HCB_comment_box h3 {
+	font-size: 24px;
+	color: rgba(0, 0, 0, 0);
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#HCB_comment_box a {
+	color: white;
+}
